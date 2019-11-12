@@ -6,9 +6,8 @@ extern "C" {
     #define UNITTEST_H
 
     #include <stdbool.h>
-    #include <stdio.h>
-    #include <string.h>
     #include <math.h>
+    #include <float.h>
 
     bool assert_int_equal(int a, int b);
 
