@@ -1,3 +1,14 @@
-# Ignore all hidden files except gitignore
+# Ignore all
+*
+
+# Except files with extensions and folders
+!*.*
+!*/
+
+# Ignore all hidden files and object files
 .*
+*.o
+
+# Except gitignore and Makefile
 !.gitignore
+!Makefile
